@@ -1,0 +1,188 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	background:url(../images/road.jpg) fixed;
+	background-size: 100% 100%;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.button{
+	height: 38px;
+	border: none;
+	background-color: red;
+	color: white;
+	width: 90px;
+}
+
+input[type=text], input[type=email], input[type=password]{
+	height: 38px;
+	width: 250px;
+	border:none;
+	margin-bottom: 5px;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+a:hover{
+	color: red !Important;
+}
+
+
+.highlight, #main-nav .current a, header nav .current a{
+	color: red ;
+	font-weight: bold;
+}
+
+header{
+	background-color: #14227c;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: red 3px solid;
+}
+
+header h1{
+	float: left;
+	padding-bottom: 10px;
+	font-family: Broadway;
+}
+
+header #branding{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 30px 0 30px;
+}
+
+
+#main-nav {
+	background:#242323;
+	min-height: 40px;
+}
+
+#main-nav nav{
+	float: left;
+	padding-top: 10px;
+
+}
+
+#main-nav li{
+	float: left;
+	display: inline;
+	padding: 0 40px 0 0px;
+}
+
+#main-nav a{
+	color: #ffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#showcase{
+	min-height: 500px;
+	background:url(../images/Dusk.jpg);
+	background-size: 100% 100%;
+
+}
+
+#showcase #page-profile{
+	width: 700px;
+	height: 400px;
+	background: url(../images/startup.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 300px; 
+}
+
+#boxes{
+	text-align: center;
+}
+
+#boxes p{
+	padding: 50px;
+}
+
+#SignInWindow{
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
+	background: #35424a;
+	color: white;
+	
+}
+#SignInWindow form{
+	padding: 10px;
+	display: block;
+}
+
+#SignInWindow h3{
+	text-align: center;
+	font-size: 25px;
+}
+
+footer , footer p{
+   
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background-color: #35424a;
+	text-align: center;
+	
+}
+
+
+@media(max-width: 700px){
+	header #branding, header nav, header nav li,
+	 #main-nav nav, #main-nav nav li,
+	 #SignInWindow, input[type=text], input[type=email], input[type=password]{
+		float:none;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	header {
+		padding-bottom: 10px;
+	}
+
+	#main-nav nav{
+		padding: 10px 10px 10px 0;
+	}
+
+	.button{
+		display: block;
+		width: 100%;
+		font-size: 1em;
+		margin: auto;
+		
+	}
+	
+}

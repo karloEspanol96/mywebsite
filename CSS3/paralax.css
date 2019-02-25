@@ -1,0 +1,82 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #667;
+}
+.pimg1, .pimg2, .pimg3, .pimg4 {
+	position: relative;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+    
+	background-attachment: fixed;
+}
+
+.pimg1{
+	background: url(../images/autumn.jpg) fixed;
+	min-height: 100%;
+	background-size: 100% 100%;
+
+}
+.pimg2{
+	background: url(../images/forest1.jpg) fixed;
+	min-height: 400px;
+	background-size: 100% 100%;
+}
+.pimg3{
+	background: url(../images/forest2.jpg) fixed;
+	min-height: 400px;
+	background-size: 100% 100%;
+}
+.pimg4{
+	background: url(../images/mountain.jpg) fixed;
+	min-height: 100%;
+	background-size: 100% 100%;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light{
+	background-color: #f4f4f4;
+	color: #667;
+}
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px white;
+
+}
+
+.ptext .border{
+	background:#111;
+	color: #fff;
+	padding: 20px;
+
+}
+.ptext .border.trans{
+	background:transparent;
+	
+
+}
+
+@media(max-width: 568px){
+	.pimg1, .pimg2, .pimg3, .pim4{
+		background-attachment: scroll;
+	}
+}
